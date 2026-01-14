@@ -30,8 +30,8 @@ num = "0.4.3"
 slog = { version="2.8.2" }
 
 [dev-dependencies]
-tokio-test = "0.2.1"
-slog-term = "2.6.0"
+tokio-test = "0.4.5"
+slog-term = "2.9.2"
 
 [dev-dependencies.slog]
 slog = { version = "2.8.2", features = ["release_max_level_trace", "max_level_trace"] }
